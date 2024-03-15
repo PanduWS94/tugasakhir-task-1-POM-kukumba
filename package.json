@@ -1,0 +1,27 @@
+{
+  "name": "tugasakhir-task-1-pom-kukumba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js",
+    "allure-report": "allure generate reports/allure-results/ --clean && allure open"
+  },
+  "author": "Pandu",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.29.7",
+    "@wdio/globals": "^8.29.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/register": "^7.23.7",
+    "@wdio/allure-reporter": "^8.29.3",
+    "@wdio/cucumber-framework": "^8.29.3",
+    "@wdio/local-runner": "^8.29.7",
+    "@wdio/spec-reporter": "^8.29.7",
+    "wdio-cucumberjs-json-reporter": "^5.2.1"
+  }
+}
