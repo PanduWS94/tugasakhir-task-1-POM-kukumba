@@ -18,6 +18,10 @@ class LoginPage {
     async open() {
       await browser.url('https://kasirdemo.belajarqa.com/');
     }
+
+    async openDashboard() {
+      await browser.url('https://kasirdemo.belajarqa.com/categories');
+    }
   
     async login(email, password) {
       await this.emailInput.setValue(email);
